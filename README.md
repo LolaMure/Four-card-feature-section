@@ -5,7 +5,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ## Links
 
 - Solution URL: [Link](https://github.com/LolaMure/Four-card-feature-section)
-- Live Site URL: [Link](https://lolamure.github.io/Four-card-feature-section/
+- Live Site URL: [Link](https://lolamure.github.io/Four-card-feature-section/)
 
 ## My process
 
