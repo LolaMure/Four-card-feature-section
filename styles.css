@@ -10,10 +10,6 @@
 }
 
 /**Title Section**/
-.title{
-    margin: 5% 36% 4% 36%;
-    text-align: center;
-}
 .title > h1:first-of-type{
     font-weight: 200;
     color: hsl(234, 12%, 34%);  
@@ -64,7 +60,12 @@
     color: hsl(229, 6%, 66%);
 }
 
+/**Laptop Design**/
 @media  screen and (max-width: 1920px) {
+    .title{
+        margin: 5% 36% 4% 36%;
+        text-align: center;
+    }
 
     #cards{
         display: grid;
@@ -100,15 +101,21 @@
         border-color:hsl(212, 86%, 64%) ;
     }
 }
+
+/**Mobile Design**/
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    .title{
+        margin: 5% 30% 5% 30%;
+        text-align: center;
+    }
     #cards{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4,1fr);
         justify-items: center;
         align-items: center;
-        padding: 0% 20%;
-        grid-row-gap: 10%;
+        padding: 5% 20%;
+        grid-row-gap: 5%;
     }
     #card1{
         grid-column: 1;
